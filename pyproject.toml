@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "a-voznesensky-sna"
+version = "0.1.0"
+description = "A_Voznesensky SNA"
+authors = ["DariaTM <dasha-matveeva@yandex.ru>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^0.20.25"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
