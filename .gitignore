@@ -1,1 +1,4 @@
 *.txt
+
+# MacOS
+.DS_Store
